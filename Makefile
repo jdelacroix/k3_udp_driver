@@ -1,5 +1,6 @@
 #
 # Author: Jean-Pierre de la Croix
+# Last Modified: 21 November 2011
 #
 # Originally:
 # (c) 2006 - 2008 EPFL, Lausanne, Switzerland

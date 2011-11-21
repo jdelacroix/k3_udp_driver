@@ -1,6 +1,5 @@
 #
 # Author: Jean-Pierre de la Croix
-# Last Modified: 21 November 2011
 #
 # Originally:
 # (c) 2006 - 2008 EPFL, Lausanne, Switzerland
@@ -14,7 +13,7 @@ MODULES	:= khepera3 commandline i2cal odometry_track nmea
 #MY_MODULES	:=
 
 # The file name of the executable
-TARGET	:= k3_udp_driver_t
+TARGET	:= k3_udp_driver_nt
 
 # If the K3_ROOT environment variable is set, you can comment out the following line
 #K3_ROOT	:= /home/jdelacroix/K3/khepera3toolbox/Scripts/..
