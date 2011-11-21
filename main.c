@@ -70,7 +70,7 @@ void help() {
 	printf("Options:\n");
 	printf("  -p --control-port PORT  Sets the UDP port to listen on for control (default: 4555)\n");
 	printf("  -P --data-port PORT     Sets the UDP port to listen on for data (default: 4556\n");
-	printf("  -t --timeout MS	      Sets the timeout for waiting on a request (default: 5s)\n");
+	printf("  -t --timeout MS	  Sets the timeout for waiting on a request (default: 5s)\n");
 	printf("  -v --verbosity V        Sets the verbosity level (0=quiet, 1=default, 2=verbose, 3=very verbose, ...)\n");
 	printf("\n");
 }

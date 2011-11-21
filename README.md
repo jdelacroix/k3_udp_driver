@@ -2,7 +2,7 @@
 
 A UDP server that can be used to control the Khepera III (K3) mobile robot over the network. Accepts left and right wheel speeds, as well as, a request for the IR and encoder data.
  
-The non-threaded version handles control and data sequentially on the same port, while the threaded version can handle control and data simultaneously on the same port.
+The non-threaded version handles control and data sequentially on the same port (4555), while the threaded version can handle control and data simultaneously on the same port (4555 and 4556, respectively).
 
 ## Protocol
 
