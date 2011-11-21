@@ -36,6 +36,6 @@ This code compiles against software provided by the Khepera III Toolbox. This to
 Author: Jean-Pierre de la Croix
 Last Modified: 21 November 2011
 
-Based on code from the khepera3toolbox by:
+Based on code from the Khepera III Toolbox by:
 (c) 2006-2008 EPFL, Lausanne, Switzerland
 Thomas Lochmatter
