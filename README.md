@@ -8,19 +8,19 @@ The non-threaded version handles control and data sequentially on the same port,
 
 For each of the three requests, a reply is sent back.
 
-* Initialization:
+### Initialization
 
 $K3DRV,REQ,INIT
 $K3DRV,RES,INIT
 
-* Control:
+### Control
 
 $K3DRV,REQ,CTRL,R,L
 $K3DRV,RES,CTRL
 
 R,L are the right and left raw wheel speeds.
 
-* Data:
+### Data
 
 $K3DRV,REQ,DATA
 $K3DRV,RES,DATA,IRC,IR0,...,IR10,ENC,EN0,EN1
@@ -29,7 +29,7 @@ Currently, only IR and encoder data is sent back.
 
 ## Requirements
 
-This code compiles against software provided by the Khepera III Toolbox. This toolbox is freely available at [[link](http://en.wikibooks.org/wiki/Khepera_III_Toolbox)].
+This code compiles against software provided by the Khepera III Toolbox. This toolbox is freely available [here](http://en.wikibooks.org/wiki/Khepera_III_Toolbox).
 
 ## Credits
 
