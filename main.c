@@ -77,8 +77,7 @@ void help() {
 
 // State functions
 void state_udp_control(void *arg);
-void state_udp_data(void *arg);
-void parse_udp_packet(char *msg, char *reply);
+
 
 void alarm_callback(int ignored) { }
 
